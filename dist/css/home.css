@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  margin:0;
+}
+.home{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.home-sidebar{
+  grid-column-start: 1;
+  background-color:#15192a;
+  width: auto;
+}
+
+.home-sidebar .logo, .logo-image img{
+  width: 370px;
+}
+.home-primary{
+  grid-column-start: 2;
+}
+
+.sidebarPlaylist{
+  display: flex;
+  flex-direction: column;
+}
+.sidebarPlaylist-title,.sidebarPlaylist-title{
+  color:white;
+  padding-left: 10px;
+}
+
+.myPlaylist{
+  color: white;
+  margin:0;
+  width: 330px;
+  height: calc(30vh);
+  overflow-x: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.myPlaylist::-webkit-scrollbar {
+  display: none;
+}
+.myPlaylist-item {
+  margin:15px 0px;
+}
+.myPlaylist-item a, .sidebarPlaylist a{
+  text-decoration-line: none;
+  color: white;
+}
+
+/*sidebarPlaylist*/
+
+.sidebarPlaylist{
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarPlaylist ul{
+  list-style: none;
+  margin:0;
+  padding: 0;  
+}
+.playlistFriends-item , .playlistFriends-item a{
+  display: flex;
+}
+
+.playlistFriends-item img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.playlistFriends-item a{
+  align-items: center;
+}
+
+.playlistFriends-item a,
+.playlistFriends-item a span {
+  margin: 10px;
+}
