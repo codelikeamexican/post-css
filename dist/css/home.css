@@ -80,3 +80,32 @@ body{
 .playlistFriends-item a span {
   margin: 10px;
 }
+
+
+/*/
+Home primary
+/*/
+
+.primary-search{
+  display: flexbox;
+  margin: 10px 5px;
+}
+
+.primary-search input{
+  background-color: lightgray;
+  border: none;
+  padding: 8px 5px;
+  width: 350px;
+}
+
+.primary-user{
+  position: absolute;
+  right: 0;
+  top:0;
+}
+.user{
+
+}
+.user img{
+ width:10%;
+}
